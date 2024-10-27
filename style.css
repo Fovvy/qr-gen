@@ -1,0 +1,89 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.social{
+  padding:5px;
+  border-radius:50%;
+  color:#0d4b1d;
+}
+
+.social:hover{
+  color:#ffffff;
+  background-color:#0f5e0f;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://www.wallpaperflare.com/search?wallpaper=qr+code");
+  user-select: none;
+}
+
+.container {
+  width: 800px;
+  background: #ffff;
+  border-radius: 8px;
+  padding: 55px;
+}
+
+.container .info h1 {
+  margin-bottom: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.container .info p {
+  font-size: 13px;
+}
+
+.container form {
+  margin: 15px 0 25px;
+}
+
+.container form :where(input, button) {
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.container form input {
+  border: 1px solid #9999;
+  width: 100%;
+}
+
+.container form .gen-btn {
+  color: #ffff;
+  cursor: pointer;
+}
+
+.container form .gen-btn {
+  background: rgb(15, 156, 114);
+  width: 100%;
+}
+
+input:focus::placeholder {
+  transition: 0.3s;
+  color: transparent;
+}
+
+.container .qr-code {
+  border: 1px solid #ffffff99;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom:10px;
+  transition: display 1s;
+}
+
+.hidden {
+  display: none;
+}
